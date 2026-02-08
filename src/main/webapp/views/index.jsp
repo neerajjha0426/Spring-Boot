@@ -1,0 +1,29 @@
+<%@page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Web Application</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="scripts/main.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Web Application</h1>
+    </header>
+     <form action="addAlien" method="post">
+             <label for="aid">Enter ID:</label>
+            <input type="number" id="aid" name="aid" required>
+            <br>
+            <label for="aname">Enter Name:</label>
+            <input type="text" id="aname" name="aname" required>
+            <br>
+            <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
+
+
+
+
